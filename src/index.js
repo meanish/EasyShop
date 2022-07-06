@@ -10,7 +10,7 @@ import Context from "./Context";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Context>
-    <BrowserRouter>
+    <BrowserRouter basename="EasyShop">
       <App />
     </BrowserRouter>
   </Context>
