@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.img-section1:hover .detail-info {
+    opacity: 1;
+    transform: scale(1);
+}
+.heading {
+    margin-bottom: 25px;
+}
+.heading h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
