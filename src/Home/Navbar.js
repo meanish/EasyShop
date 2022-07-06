@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="store-name">
           <NavLink to="/" className="headname font-Right text-4xl text-blues">
-            EasyStore
+            EasyShop
           </NavLink>
         </div>
         <div className="end-section flex gap-4">
